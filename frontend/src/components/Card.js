@@ -469,9 +469,9 @@ const UiverseWrapper = styled.div`
   }
 
   & .service-icon {
-    font-size: 16px;
+    font-size: 18px;
     min-width: 14px;
-    margin-top: 1px;
+    margin-top: -1px;
   }
 
   & .service-text {
