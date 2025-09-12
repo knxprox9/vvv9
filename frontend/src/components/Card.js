@@ -62,7 +62,7 @@ const Card = () => {
                   <div className="column-one">
                     <div className="service-row">
                       <span className="service-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                           <polygon points="7 1.17 1.17 4.08 7 7 12.83 4.08 7 1.17"></polygon>
                           <polyline points="1.17 9.92 7 12.83 12.83 9.92"></polyline>
                           <polyline points="1.17 7 7 9.92 12.83 7"></polyline>
