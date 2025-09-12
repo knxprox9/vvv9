@@ -433,7 +433,7 @@ const UiverseWrapper = styled.div`
   & .service-row {
     display: flex;
     align-items: flex-start;
-    gap: 4px;
+    gap: 2px;
     background: rgba(255, 255, 255, 0.9);
     padding: 6px 10px;
     border-radius: 6px;
