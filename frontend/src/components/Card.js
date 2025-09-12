@@ -476,10 +476,13 @@ const UiverseWrapper = styled.div`
 
   & .service-icon {
     font-size: 18px;
-    min-width: 14px;
+    min-width: 16px;
     margin-top: -2px;
     line-height: 1;
     vertical-align: top;
+    display: inline-flex;
+    align-items: center;
+    color: #6366f1;
   }
 
   & .service-text {
