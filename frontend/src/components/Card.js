@@ -474,6 +474,14 @@ const UiverseWrapper = styled.div`
     text-overflow: ellipsis;
   }
 
+  & .service-description {
+    color: #6b7280;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-right: 8px;
+  }
+
   & .service-item {
     color: #6b7280;
     font-size: 9px;
