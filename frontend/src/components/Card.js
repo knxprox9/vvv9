@@ -396,7 +396,7 @@ const UiverseWrapper = styled.div`
     bottom: .5rem;
     left: .05rem;
     text-align: start;
-    padding: .3rem 1em;
+    padding: .4rem 1em;
     width: 96%;
     transition: all 0.5s ease;
     text-overflow: ellipsis;
