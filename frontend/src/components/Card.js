@@ -472,6 +472,31 @@ const UiverseWrapper = styled.div`
     font-weight: 500;
     line-height: 1.2;
     padding-right: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  & .item-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1.5px solid;
+    background: transparent;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+
+  & .circle-green {
+    border-color: #10b981;
+  }
+
+  & .circle-blue {
+    border-color: #3b82f6;
+  }
+
+  & .circle-orange {
+    border-color: #f59e0b;
   }
 
   & .service-icon {
