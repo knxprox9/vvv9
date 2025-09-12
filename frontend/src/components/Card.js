@@ -479,7 +479,7 @@ const UiverseWrapper = styled.div`
     font-size: 8px;
     font-weight: 500;
     line-height: 1.2;
-    padding-right: 12px;
+    padding-right: 4px;
   }
 
   & .service-item {
