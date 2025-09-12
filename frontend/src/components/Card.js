@@ -468,7 +468,7 @@ const UiverseWrapper = styled.div`
 
   & .service-item {
     color: #6b7280;
-    font-size: 8px;
+    font-size: 9px;
     font-weight: 500;
     line-height: 1.2;
     padding-right: 8px;
