@@ -471,7 +471,8 @@ const UiverseWrapper = styled.div`
   & .service-icon {
     font-size: 18px;
     min-width: 14px;
-    margin-top: 0px;
+    margin-top: 1px;
+    line-height: 1;
   }
 
   & .service-text {
