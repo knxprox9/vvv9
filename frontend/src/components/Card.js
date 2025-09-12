@@ -61,7 +61,7 @@ const Card = () => {
                 <div className="services-data">
                   <div className="column-one">
                     <div className="service-row">
-                      <span className="service-icon">☰</span>
+                      <span className="service-icon">📄</span>
                       <div className="service-content">
                         <div className="service-title">فئات متعددة</div>
                         <div className="service-item">مالية</div>
