@@ -64,9 +64,7 @@ const Card = () => {
                       <span className="service-icon">💳</span>
                       <div className="service-content">
                         <div className="service-title">فئات متعددة</div>
-                        <div className="service-item">مالية</div>
-                        <div className="service-item">العاب</div>
-                        <div className="service-item">تسوق</div>
+                        <div className="service-categories">مالية • العاب • تسوق</div>
                       </div>
                     </div>
                   </div>
