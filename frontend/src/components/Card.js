@@ -61,7 +61,13 @@ const Card = () => {
                 <div className="services-data">
                   <div className="column-one">
                     <div className="service-row">
-                      <span className="service-icon">📄</span>
+                      <span className="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <polygon points="8 1.33 1.33 4.67 8 8 14.67 4.67 8 1.33"></polygon>
+                          <polyline points="1.33 11.33 8 14.67 14.67 11.33"></polyline>
+                          <polyline points="1.33 8 8 11.33 14.67 8"></polyline>
+                        </svg>
+                      </span>
                       <div className="service-content">
                         <div className="service-title">فئات متعددة</div>
                         <div className="service-item">مالية</div>
