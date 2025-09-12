@@ -78,8 +78,16 @@ const Card = () => {
                   </div>
                   <div className="column-two">
                     <div className="service-row">
-                      <span className="service-icon">🌟</span>
-                      <span className="service-text">توافق عالمي مع اغلب المنصات والتطبيقات</span>
+                      <span className="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                          <circle cx="7" cy="7" r="5.5"></circle>
+                          <path d="m4.9 7 1.4 1.4L9.1 5.6"></path>
+                        </svg>
+                      </span>
+                      <div className="service-content">
+                        <div className="service-title">توافق عالمي</div>
+                        <div className="service-description">متوافقة مع اغلب المنصات والتطبيقات والمواقع</div>
+                      </div>
                     </div>
                     <div className="service-row">
                       <span className="service-icon">💎</span>
