@@ -457,6 +457,17 @@ const UiverseWrapper = styled.div`
     padding-right: 8px;
   }
 
+  & .service-categories {
+    color: #6b7280;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-right: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   & .service-icon {
     font-size: 12px;
     min-width: 14px;
