@@ -476,6 +476,44 @@ const UiverseWrapper = styled.div`
     vertical-align: top;
   }
 
+  & .custom-layers-icon {
+    position: relative;
+    width: 16px;
+    height: 12px;
+    display: inline-block;
+    margin-top: -1px;
+  }
+
+  & .custom-layers-icon::before,
+  & .custom-layers-icon::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 3px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #9333ea 100%);
+    box-shadow: 0 1px 2px rgba(139, 92, 246, 0.3);
+  }
+
+  & .custom-layers-icon::before {
+    top: 0;
+    background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #9333ea 100%);
+  }
+
+  & .custom-layers-icon::after {
+    top: 4px;
+    background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 50%, #7c3aed 100%);
+  }
+
+  & .custom-layers-icon {
+    background: linear-gradient(135deg, #6d28d9 0%, #7c3aed 50%, #6d28d9 100%);
+    width: 16px;
+    height: 3px;
+    border-radius: 8px;
+    margin-top: 8px;
+    box-shadow: 0 1px 2px rgba(109, 40, 217, 0.3);
+  }
+
   & .service-text {
     color: #374151;
     font-size: 9px;
