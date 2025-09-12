@@ -455,6 +455,9 @@ const UiverseWrapper = styled.div`
     font-weight: 700;
     line-height: 1.3;
     margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   & .service-item {
