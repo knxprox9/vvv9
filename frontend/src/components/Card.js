@@ -70,9 +70,9 @@ const Card = () => {
                       </span>
                       <div className="service-content">
                         <div className="service-title">فئات متعددة</div>
-                        <div className="service-item">مالية</div>
-                        <div className="service-item">العاب</div>
-                        <div className="service-item">تسوق</div>
+                        <div className="service-item"><span className="item-circle circle-green"></span>مالية</div>
+                        <div className="service-item"><span className="item-circle circle-blue"></span>العاب</div>
+                        <div className="service-item"><span className="item-circle circle-orange"></span>تسوق</div>
                       </div>
                     </div>
                   </div>
